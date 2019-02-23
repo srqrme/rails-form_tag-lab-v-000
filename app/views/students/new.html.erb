@@ -1,8 +1,8 @@
 <h1>Student Form</h1>
 
 <%= form_tag new_student_path do %>
-  <label>Student Form</label><br>
-  <input type="text" id="student_first_name" name="student[first_name]"><br>
+  <label>First Name</label><br>
+  <%= text_field_tag :'student[first_name]' %><br>
 
 <label></label><br>
   <textarea id="post_description" name="post[description]"></textarea><br>
