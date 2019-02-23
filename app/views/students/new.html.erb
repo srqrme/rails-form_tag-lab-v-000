@@ -1,6 +1,6 @@
 <h1><%= @student.to_s %></h1>
 
-<form>
+<form action="<%= new_student_path %>">
   <label>Student Form</label><br>
   <input type="text" id="student_first_name" name="student[first_name]"><br>
 
