@@ -1,10 +1,10 @@
-<h1><%= @student.to_s %></h1>
+<h1>Student Form</h1>
 
 <%= form_tag new_student_path do %>
   <label>Student Form</label><br>
   <input type="text" id="student_first_name" name="student[first_name]"><br>
 
-  <label>Post description:</label><br>
+<label></label><br>
   <textarea id="post_description" name="post[description]"></textarea><br>
 
    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
